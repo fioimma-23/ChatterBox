@@ -1,59 +1,62 @@
+SPIDER LATERAL INDUCTIONS
+Task Submission
+Problem statement : Scaling a Real-time chat app
 
-# chat_app
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+	Front-end Development :
 
-### System requirements
+	Design:
+Created screen designs using Figma, a cloud-based design tool, to visualize the user interface.
 
-Dart SDK Version 2.18.0 or greater.
-Flutter SDK Version 3.3.0 or greater.
+	Development:
+ Utilized Flutter, an open-source framework for cross-platform development, for designing, text editing, navigation, and integrating with the backend. I have implemented several pages like 
 
-### Figma design guidelines for better UI accuracy
+•	Home Page
+•	Sign Up
+•	Login
+•	Forget Password
+•	Chat List Page
+•	Chat Window Screen
+•	Chat Room Page
+•	Settings Page
+	Profile Page
+	Security Page
+	Add Chat Room Page
+	Notification Page
+	Help Page
+	Add Contact Page
+	Invite Page
 
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
+	Back-end Development:
 
-### Check the UI of the entire app
+	API Development:
+Developed APIs using C# within the Visual Studio environment to handle various functionalities.
+I have used API for
+•	Sign Up
+•	Login
+•	Forget Password
+•	Add contact
+•	Getting chat list
+•	Saving User profile
+•	Add ChatRoom
+•	Implementing Websocket 
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
 
-### Application structure
-After successful build, your application structure should look like this:
-                    
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
-### How to format your code?
+	Database Creation:
+ Established tables using SQL Server to manage and store all the required databases effectively. Several tables are created –
+•	User Table
+•	Contact Table
+•	Chat Room Table
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+	API Implementation:
+ Implemented APIs using Swagger, ensuring a standardized and documented approach for API development. Lot of Get and Post method are created and displayed.
+	API Hosting:
+ Hosted the APIs using Internet Information Service Management, ensuring accessibility and availability.
 
-### How you can improve code readability?
+	API Testing:
+Conducted API testing using Postman to validate functionality, identify bugs, and ensure reliability.
+	API Integration:
+Integrated the APIs into the Flutter application for security, error handling, data retrieval, and presentation purposes, creating a seamless interaction between the front-end and back-end systems.
+•	WebSockets Integration:
+Implemented WebSockets to establish a two-way communication channel between the server and the Flutter application, enabling real-time data exchange. This facilitates instant messaging and updates within the application, enhancing user engagement. Used C# for websocket and integrated with flutter.
 
-Resolve the errors and warnings that are shown in the application.
-
-### Support
-
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
+GitHub Link: https://github.com/fioimma-23/ChatterBox
